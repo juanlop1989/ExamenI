@@ -51,16 +51,16 @@ namespace ExamenI
 
         public void Imprimir()
         {
-            Console.WriteLine("*************************");
+            Console.WriteLine("**********************************************");
             Console.WriteLine("Nombre del estudiante: " + NombreAlumno);
             Console.WriteLine("Número de cuenta: " + NumeroCuenta);
             Console.WriteLine("Correo electrónico: " + Email);
             Console.WriteLine("Nombre de la clase: " + NombreAsignatura);
             Console.WriteLine("Horario: " + Horario);
             Console.WriteLine("Nombre del docente: " + NombreDocente);
-            Console.WriteLine("Nota Final: " + CalcularNotaFinal() + " - " + MensajeNotaFinal(CalcularNotaFinal()));
-            Console.WriteLine("Nota Final: " + CalcularNotaFinal(N1, N2, N3) + " - " + MensajeNotaFinal(CalcularNotaFinal(N1, N2, N3)));
-            Console.WriteLine("*************************");
+            Console.WriteLine("Nota Final: " + CalcularNotaFinal() +"%"+ " - " + MensajeNotaFinal(CalcularNotaFinal()));
+            Console.WriteLine("Nota Final: " + CalcularNotaFinal(N1, N2, N3) +"%"+ " - " + MensajeNotaFinal(CalcularNotaFinal(N1, N2, N3)));
+            Console.WriteLine("**********************************************");
         }
 
         public string MensajeNotaFinal(double notaFinal)
